@@ -1,9 +1,9 @@
 #Pattern in Java
 ![logo](banner.jpg)
-##**Creational** [link to folder](src/com/vsvdev/creational)
+## **Creational** [link to folder](src/com/vsvdev/creational)
 
 
-###*Abstract Factory*  [link to code](src/com/vsvdev/creational/abstractfactory/Describe.java)
+### *Abstract Factory*  [link to code](src/com/vsvdev/creational/abstractfactory/Describe.java)
 
 ###*Builder*  [link to code](src/com/vsvdev/creational/builder/Describe.java)
 
