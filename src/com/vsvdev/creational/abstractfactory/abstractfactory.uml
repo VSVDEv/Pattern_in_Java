@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.creational.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="10.5" y="186.0">com.vsvdev.creational.abstractfactory.Cadilac</node>
+    <node x="39.41444444444443" y="312.0">com.vsvdev.creational.abstractfactory.USAFactory</node>
+    <node x="140.5" y="197.0">com.vsvdev.creational.abstractfactory.Boeing747</node>
+    <node x="248.75" y="0.0">com.vsvdev.creational.abstractfactory.Car</node>
+    <node x="606.5" y="197.0">com.vsvdev.creational.abstractfactory.Anton</node>
+    <node x="280.5" y="186.0">com.vsvdev.creational.abstractfactory.TransportFactory</node>
+    <node x="477.5" y="186.0">com.vsvdev.creational.abstractfactory.Daewoo</node>
+    <node x="269.2633333333333" y="438.0">com.vsvdev.creational.abstractfactory.StartAbstractFactory</node>
+    <node x="377.75" y="11.0">com.vsvdev.creational.abstractfactory.Aircraft</node>
+    <node x="457.69888888888886" y="312.0">com.vsvdev.creational.abstractfactory.UkrainianFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.creational.abstractfactory.Daewoo" target="com.vsvdev.creational.abstractfactory.Car">
+      <point x="0.0" y="-38.0" />
+      <point x="532.0" y="116.0" />
+      <point x="346.84999999999997" y="116.0" />
+      <point x="43.599999999999966" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.abstractfactory.UkrainianFactory" target="com.vsvdev.creational.abstractfactory.TransportFactory">
+      <point x="-70.4" y="-38.0" />
+      <point x="475.2988888888889" y="292.0" />
+      <point x="427.1666666666667" y="292.0" />
+      <point x="58.666666666666686" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.abstractfactory.Boeing747" target="com.vsvdev.creational.abstractfactory.Aircraft">
+      <point x="0.0" y="-27.0" />
+      <point x="200.5" y="156.0" />
+      <point x="411.35" y="156.0" />
+      <point x="-22.399999999999977" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.abstractfactory.Anton" target="com.vsvdev.creational.abstractfactory.Aircraft">
+      <point x="0.0" y="-27.0" />
+      <point x="662.0" y="106.0" />
+      <point x="456.15000000000003" y="106.0" />
+      <point x="22.400000000000034" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.abstractfactory.USAFactory" target="com.vsvdev.creational.abstractfactory.TransportFactory">
+      <point x="68.0" y="-38.0" />
+      <point x="192.41444444444443" y="292.0" />
+      <point x="309.8333333333333" y="292.0" />
+      <point x="-58.666666666666686" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.abstractfactory.Cadilac" target="com.vsvdev.creational.abstractfactory.Car">
+      <point x="0.0" y="-38.0" />
+      <point x="65.0" y="136.0" />
+      <point x="281.45" y="136.0" />
+      <point x="-21.80000000000001" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="364.0" y="267.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

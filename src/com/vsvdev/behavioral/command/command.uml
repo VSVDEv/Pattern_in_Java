@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.command</OriginalElement>
+  <nodes>
+    <node x="36.50000000000003" y="104.0">com.vsvdev.behavioral.command.Command2Receiver</node>
+    <node x="77.00000000000001" y="314.0">com.vsvdev.behavioral.command.Main</node>
+    <node x="9.523809523809518" y="0.0">com.vsvdev.behavioral.command.Receiver</node>
+    <node x="233.00000000000003" y="0.0">com.vsvdev.behavioral.command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.command.Command2Receiver" target="com.vsvdev.behavioral.command.Receiver">
+      <point x="0.0" y="-80.0" />
+      <point x="160.50000000000003" y="79.0" />
+      <point x="132.02380952380952" y="79.0" />
+      <point x="49.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.command.Main" target="com.vsvdev.behavioral.command.Receiver">
+      <point x="-93.75" y="-70.0" />
+      <point x="108.25000000000001" y="294.0" />
+      <point x="26.0" y="294.0" />
+      <point x="26.0" y="79.0" />
+      <point x="34.02380952380952" y="79.0" />
+      <point x="-49.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.command.Main" target="com.vsvdev.behavioral.command.Command">
+      <point x="31.25" y="-70.0" />
+      <point x="233.25" y="284.0" />
+      <point x="295.0" y="284.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.command.Main" target="com.vsvdev.behavioral.command.Command2Receiver">
+      <point x="-31.25" y="-70.0" />
+      <point x="170.75" y="294.0" />
+      <point x="160.50000000000003" y="294.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.command.Command2Receiver" target="com.vsvdev.behavioral.command.Command">
+      <point x="82.66666666666669" y="-80.0" />
+      <point x="243.1666666666667" y="79.0" />
+      <point x="253.66666666666669" y="79.0" />
+      <point x="-41.33333333333334" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="125.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.command.Command</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

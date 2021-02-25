@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.template_method</OriginalElement>
+  <nodes>
+    <node x="157.0" y="188.0">com.vsvdev.behavioral.template_method.Plus</node>
+    <node x="0.0" y="188.0">com.vsvdev.behavioral.template_method.Minus</node>
+    <node x="148.4083333333333" y="334.0">com.vsvdev.behavioral.template_method.Main</node>
+    <node x="119.58333333333331" y="0.0">com.vsvdev.behavioral.template_method.BaseClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.template_method.Minus" target="com.vsvdev.behavioral.template_method.BaseClass">
+      <point x="-34.25" y="-48.0" />
+      <point x="34.25" y="158.0" />
+      <point x="134.08333333333331" y="158.0" />
+      <point x="-58.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.template_method.Main" target="com.vsvdev.behavioral.template_method.Plus">
+      <point x="0.0" y="-27.0" />
+      <point x="222.9083333333333" y="309.0" />
+      <point x="225.5" y="309.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.template_method.Plus" target="com.vsvdev.behavioral.template_method.BaseClass">
+      <point x="-34.25" y="-48.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.template_method.Main" target="com.vsvdev.behavioral.template_method.BaseClass">
+      <point x="49.666666666666686" y="-27.0" />
+      <point x="272.575" y="309.0" />
+      <point x="304.5" y="309.0" />
+      <point x="304.5" y="158.0" />
+      <point x="250.08333333333331" y="158.0" />
+      <point x="58.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.template_method.Main" target="com.vsvdev.behavioral.template_method.Minus">
+      <point x="-49.66666666666666" y="-27.0" />
+      <point x="173.24166666666667" y="309.0" />
+      <point x="68.5" y="309.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="125.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.template_method.BaseClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.structural.decoratorwrapper.otherexamp</OriginalElement>
+  <nodes>
+    <node x="394.2797619047619" y="532.0">com.vsvdev.structural.decoratorwrapper.otherexamp.Main</node>
+    <node x="535.8333333333334" y="332.0">com.vsvdev.structural.decoratorwrapper.otherexamp.ReversedPrinter</node>
+    <node x="0.0" y="166.0">com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterImpl</node>
+    <node x="327.83333333333337" y="354.0">com.vsvdev.structural.decoratorwrapper.otherexamp.UpperCasePrinter</node>
+    <node x="117.83333333333337" y="354.0">com.vsvdev.structural.decoratorwrapper.otherexamp.UnderscorePrinter</node>
+    <node x="372.2500000000001" y="0.0">com.vsvdev.structural.decoratorwrapper.otherexamp.Printer</node>
+    <node x="381.08333333333337" y="124.0">com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.UpperCasePrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="421.33333333333337" y="312.0" />
+      <point x="446.08333333333337" y="312.0" />
+      <point x="-26.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator">
+      <point x="12.416666666666629" y="-27.0" />
+      <point x="481.19642857142856" y="492.0" />
+      <point x="525.3333333333334" y="492.0" />
+      <point x="525.3333333333334" y="312.0" />
+      <point x="498.08333333333337" y="312.0" />
+      <point x="26.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.UpperCasePrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="-62.33333333333337" y="-48.0" />
+      <point x="359.0" y="282.0" />
+      <point x="370.58333333333337" y="282.0" />
+      <point x="370.58333333333337" y="94.0" />
+      <point x="415.6875000000001" y="94.0" />
+      <point x="-26.0625" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.UnderscorePrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="212.83333333333337" y="292.0" />
+      <point x="394.08333333333337" y="292.0" />
+      <point x="-78.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.UnderscorePrinter">
+      <point x="-37.25" y="-27.0" />
+      <point x="431.5297619047619" y="502.0" />
+      <point x="212.83333333333337" y="502.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="62.08333333333337" y="-27.0" />
+      <point x="530.8630952380953" y="512.0" />
+      <point x="801.3333333333334" y="512.0" />
+      <point x="801.3333333333334" y="74.0" />
+      <point x="502.5625000000001" y="74.0" />
+      <point x="60.8125" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.ReversedPrinter">
+      <point x="37.25" y="-27.0" />
+      <point x="506.0297619047619" y="502.0" />
+      <point x="663.3333333333334" y="502.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterImpl">
+      <point x="-62.083333333333314" y="-27.0" />
+      <point x="406.6964285714286" y="512.0" />
+      <point x="69.5" y="512.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.ReversedPrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator">
+      <point x="-85.0" y="-70.0" />
+      <point x="578.3333333333334" y="302.0" />
+      <point x="524.0833333333334" y="302.0" />
+      <point x="52.0" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.UnderscorePrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="-63.33333333333337" y="-48.0" />
+      <point x="149.5" y="282.0" />
+      <point x="209.50595238095244" y="282.0" />
+      <point x="209.50595238095244" y="84.0" />
+      <point x="398.3125000000001" y="84.0" />
+      <point x="-43.4375" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.Main" target="com.vsvdev.structural.decoratorwrapper.otherexamp.UpperCasePrinter">
+      <point x="-12.416666666666629" y="-27.0" />
+      <point x="456.3630952380953" y="492.0" />
+      <point x="421.33333333333337" y="492.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterDecorator" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="0.0" y="-69.0" />
+      <point x="472.08333333333337" y="104.0" />
+      <point x="450.4375000000001" y="104.0" />
+      <point x="8.6875" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.ReversedPrinter" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="85.0" y="-70.0" />
+      <point x="748.3333333333334" y="312.0" />
+      <point x="719.1904761904763" y="312.0" />
+      <point x="719.1904761904763" y="84.0" />
+      <point x="485.1875000000001" y="84.0" />
+      <point x="43.4375" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.otherexamp.PrinterImpl" target="com.vsvdev.structural.decoratorwrapper.otherexamp.Printer">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="74.0" />
+      <point x="380.9375000000001" y="74.0" />
+      <point x="-60.8125" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.0" y="296.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.structural.decoratorwrapper.otherexamp.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

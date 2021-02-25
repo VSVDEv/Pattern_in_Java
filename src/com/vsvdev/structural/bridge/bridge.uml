@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.structural.bridge</OriginalElement>
+  <nodes>
+    <node x="430.5493197278911" y="334.0">com.vsvdev.structural.bridge.CreditCard</node>
+    <node x="324.0" y="177.0">com.vsvdev.structural.bridge.MirPS</node>
+    <node x="0.0" y="177.0">com.vsvdev.structural.bridge.VisaPS</node>
+    <node x="393.475850340136" y="0.0">com.vsvdev.structural.bridge.PaymentSystem</node>
+    <node x="520.6993197278911" y="124.0">com.vsvdev.structural.bridge.Card</node>
+    <node x="387.3068027210884" y="490.0">com.vsvdev.structural.bridge.Run</node>
+    <node x="653.5493197278911" y="334.0">com.vsvdev.structural.bridge.DebitCard</node>
+    <node x="160.0" y="177.0">com.vsvdev.structural.bridge.MastercardPS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.MastercardPS">
+      <point x="-37.25" y="-27.0" />
+      <point x="424.5568027210884" y="460.0" />
+      <point x="232.0" y="460.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.Card">
+      <point x="37.25" y="-27.0" />
+      <point x="499.0568027210884" y="460.0" />
+      <point x="643.0493197278911" y="460.0" />
+      <point x="643.0493197278911" y="309.0" />
+      <point x="631.6993197278911" y="309.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.CreditCard" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="-67.33333333333337" y="-48.0" />
+      <point x="464.2159863945577" y="309.0" />
+      <point x="495.34999999999997" y="309.0" />
+      <point x="495.34999999999997" y="104.0" />
+      <point x="469.475850340136" y="104.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.VisaPS">
+      <point x="-62.083333333333314" y="-27.0" />
+      <point x="399.723469387755" y="470.0" />
+      <point x="70.0" y="470.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Card" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="-55.5" y="-80.0" />
+      <point x="576.1993197278911" y="94.0" />
+      <point x="491.19013605442166" y="94.0" />
+      <point x="21.714285714285666" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.MirPS" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="0.0" y="-27.0" />
+      <point x="394.0" y="104.0" />
+      <point x="447.76156462585027" y="104.0" />
+      <point x="-21.714285714285722" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.MastercardPS" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="0.0" y="-27.0" />
+      <point x="232.0" y="94.0" />
+      <point x="426.04727891156455" y="94.0" />
+      <point x="-43.428571428571445" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.MirPS">
+      <point x="-12.416666666666629" y="-27.0" />
+      <point x="449.39013605442176" y="450.0" />
+      <point x="394.0" y="450.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.DebitCard" target="com.vsvdev.structural.bridge.Card">
+      <point x="0.0" y="-48.0" />
+      <point x="752.5493197278911" y="309.0" />
+      <point x="720.4993197278911" y="309.0" />
+      <point x="88.80000000000007" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.VisaPS" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="0.0" y="-27.0" />
+      <point x="70.0" y="84.0" />
+      <point x="404.3329931972789" y="84.0" />
+      <point x="-65.14285714285711" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.CreditCard" target="com.vsvdev.structural.bridge.Card">
+      <point x="0.0" y="-48.0" />
+      <point x="531.5493197278911" y="309.0" />
+      <point x="542.8993197278911" y="309.0" />
+      <point x="-88.79999999999995" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.DebitCard">
+      <point x="62.08333333333337" y="-27.0" />
+      <point x="523.8901360544218" y="470.0" />
+      <point x="752.5493197278911" y="470.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.Run" target="com.vsvdev.structural.bridge.CreditCard">
+      <point x="12.416666666666686" y="-27.0" />
+      <point x="474.223469387755" y="450.0" />
+      <point x="531.5493197278911" y="450.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.bridge.DebitCard" target="com.vsvdev.structural.bridge.PaymentSystem">
+      <point x="66.0" y="-48.0" />
+      <point x="818.5493197278911" y="309.0" />
+      <point x="780.1993197278911" y="309.0" />
+      <point x="780.1993197278911" y="74.0" />
+      <point x="534.618707482993" y="74.0" />
+      <point x="65.14285714285711" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="212.5" y="267.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

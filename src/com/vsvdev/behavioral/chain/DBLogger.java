@@ -1,0 +1,13 @@
+package com.vsvdev.behavioral.chain;
+
+public class DBLogger extends Logger {
+    public DBLogger() {
+        super(30);
+    }
+
+    @Override
+    protected void writeMsg(String msg) {
+        //write to the DB
+        System.err.println(this.getClass().getSimpleName() + ": " + msg);
+    }
+}

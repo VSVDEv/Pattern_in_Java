@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.strategy.otherexamp</OriginalElement>
+  <nodes>
+    <node x="171.99999999999997" y="292.0">com.vsvdev.behavioral.strategy.otherexamp.Main</node>
+    <node x="163.0" y="104.0">com.vsvdev.behavioral.strategy.otherexamp.Sorter</node>
+    <node x="175.00000000000003" y="0.0">com.vsvdev.behavioral.strategy.otherexamp.Algorithm</node>
+    <node x="0.0" y="146.0">com.vsvdev.behavioral.strategy.otherexamp.MergeSort</node>
+    <node x="350.0" y="146.0">com.vsvdev.behavioral.strategy.otherexamp.HeapSort</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.Main" target="com.vsvdev.behavioral.strategy.otherexamp.MergeSort">
+      <point x="-55.87499999999997" y="-27.0" />
+      <point x="190.625" y="267.0" />
+      <point x="71.5" y="267.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.Main" target="com.vsvdev.behavioral.strategy.otherexamp.HeapSort">
+      <point x="55.87500000000003" y="-27.0" />
+      <point x="302.375" y="267.0" />
+      <point x="421.5" y="267.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.Sorter" target="com.vsvdev.behavioral.strategy.otherexamp.Algorithm">
+      <point x="-55.66666666666666" y="-69.0" />
+      <point x="190.83333333333334" y="84.0" />
+      <point x="217.90000000000003" y="84.0" />
+      <point x="-28.60000000000001" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.MergeSort" target="com.vsvdev.behavioral.strategy.otherexamp.Algorithm">
+      <point x="0.0" y="-27.0" />
+      <point x="71.5" y="74.0" />
+      <point x="189.3" y="74.0" />
+      <point x="-57.2" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.HeapSort" target="com.vsvdev.behavioral.strategy.otherexamp.Algorithm">
+      <point x="0.0" y="-27.0" />
+      <point x="421.5" y="74.0" />
+      <point x="303.70000000000005" y="74.0" />
+      <point x="57.19999999999999" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.otherexamp.Main" target="com.vsvdev.behavioral.strategy.otherexamp.Sorter">
+      <point x="-18.62499999999997" y="-27.0" />
+      <point x="227.875" y="267.0" />
+      <point x="204.75" y="267.0" />
+      <point x="-41.75" y="69.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="125.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.strategy.otherexamp.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

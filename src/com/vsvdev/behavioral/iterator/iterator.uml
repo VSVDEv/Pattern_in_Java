@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.iterator</OriginalElement>
+  <nodes>
+    <node x="78.59374999999999" y="418.0">com.vsvdev.behavioral.iterator.Main</node>
+    <node x="55.427083333333314" y="230.0">com.vsvdev.behavioral.iterator.List</node>
+    <node x="74.01041666666664" y="0.0">com.vsvdev.behavioral.iterator.Iterator</node>
+    <node x="0.0" y="126.0">com.vsvdev.behavioral.iterator.Iterable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.iterator.Main" target="com.vsvdev.behavioral.iterator.List">
+      <point x="-49.66666666666666" y="-27.0" />
+      <point x="103.42708333333333" y="393.0" />
+      <point x="88.92708333333331" y="393.0" />
+      <point x="-33.5" y="69.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.iterator.List" target="com.vsvdev.behavioral.iterator.Iterable">
+      <point x="-44.66666666666666" y="-69.0" />
+      <point x="77.76041666666666" y="205.0" />
+      <point x="67.0" y="205.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.iterator.Main" target="com.vsvdev.behavioral.iterator.Iterator">
+      <point x="49.66666666666666" y="-27.0" />
+      <point x="202.76041666666663" y="393.0" />
+      <point x="199.92708333333331" y="393.0" />
+      <point x="199.92708333333331" y="101.0" />
+      <point x="201.76041666666663" y="101.0" />
+      <point x="54.75" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.iterator.List" target="com.vsvdev.behavioral.iterator.Iterator">
+      <point x="0.0" y="-69.0" />
+      <point x="122.42708333333331" y="205.0" />
+      <point x="144.49999999999997" y="205.0" />
+      <point x="144.49999999999997" y="101.0" />
+      <point x="128.76041666666663" y="101.0" />
+      <point x="-18.25" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.iterator.Iterable" target="com.vsvdev.behavioral.iterator.Iterator">
+      <point x="0.0" y="-27.0" />
+      <point x="67.0" y="101.0" />
+      <point x="92.26041666666664" y="101.0" />
+      <point x="-54.75" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="199.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.iterator.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

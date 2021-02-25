@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.structural.decoratorwrapper</OriginalElement>
+  <nodes>
+    <node x="305.41055555555556" y="344.0">com.vsvdev.structural.decoratorwrapper.ColorDecorator</node>
+    <node x="605.5772222222222" y="187.0">com.vsvdev.structural.decoratorwrapper.Button</node>
+    <node x="199.08333333333331" y="134.0">com.vsvdev.structural.decoratorwrapper.Decorator</node>
+    <node x="434.5833333333333" y="490.0">com.vsvdev.structural.decoratorwrapper.Start</node>
+    <node x="74.41055555555556" y="344.0">com.vsvdev.structural.decoratorwrapper.BorderDecorator</node>
+    <node x="296.74999999999994" y="0.0">com.vsvdev.structural.decoratorwrapper.Component</node>
+    <node x="0.0" y="187.0">com.vsvdev.structural.decoratorwrapper.TextView</node>
+    <node x="476.5772222222222" y="187.0">com.vsvdev.structural.decoratorwrapper.Window</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.structural.decoratorwrapper.TextView" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="56.0" y="74.0" />
+      <point x="303.41666666666663" y="74.0" />
+      <point x="-53.333333333333314" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.BorderDecorator" target="com.vsvdev.structural.decoratorwrapper.Decorator">
+      <point x="0.0" y="-48.0" />
+      <point x="179.91055555555556" y="319.0" />
+      <point x="221.33333333333331" y="319.0" />
+      <point x="-66.75" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Start" target="com.vsvdev.structural.decoratorwrapper.Button">
+      <point x="32.19999999999999" y="-70.0" />
+      <point x="547.2833333333333" y="460.0" />
+      <point x="660.0772222222222" y="460.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.ColorDecorator" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="68.33333333333337" y="-48.0" />
+      <point x="476.24388888888893" y="319.0" />
+      <point x="433.04777777777775" y="319.0" />
+      <point x="433.04777777777775" y="114.0" />
+      <point x="370.0833333333333" y="114.0" />
+      <point x="13.333333333333371" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Start" target="com.vsvdev.structural.decoratorwrapper.BorderDecorator">
+      <point x="-32.19999999999999" y="-70.0" />
+      <point x="482.8833333333333" y="460.0" />
+      <point x="179.91055555555556" y="460.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Window" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="531.0772222222222" y="104.0" />
+      <point x="383.41666666666663" y="104.0" />
+      <point x="26.666666666666686" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Decorator" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="59.333333333333314" y="-80.0" />
+      <point x="347.41666666666663" y="114.0" />
+      <point x="356.74999999999994" y="114.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Start" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="64.39999999999998" y="-70.0" />
+      <point x="579.4833333333333" y="470.0" />
+      <point x="725.0772222222222" y="470.0" />
+      <point x="725.0772222222222" y="84.0" />
+      <point x="410.0833333333333" y="84.0" />
+      <point x="53.33333333333337" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.BorderDecorator" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="-70.33333333333331" y="-48.0" />
+      <point x="109.57722222222225" y="319.0" />
+      <point x="151.7022222222222" y="319.0" />
+      <point x="151.7022222222222" y="84.0" />
+      <point x="316.74999999999994" y="84.0" />
+      <point x="-40.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Start" target="com.vsvdev.structural.decoratorwrapper.Window">
+      <point x="0.0" y="-70.0" />
+      <point x="515.0833333333333" y="470.0" />
+      <point x="531.0772222222222" y="470.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.ColorDecorator" target="com.vsvdev.structural.decoratorwrapper.Decorator">
+      <point x="-68.33333333333331" y="-48.0" />
+      <point x="339.5772222222222" y="319.0" />
+      <point x="310.3333333333333" y="319.0" />
+      <point x="22.25" y="80.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Button" target="com.vsvdev.structural.decoratorwrapper.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="660.0772222222222" y="94.0" />
+      <point x="396.74999999999994" y="94.0" />
+      <point x="40.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.decoratorwrapper.Start" target="com.vsvdev.structural.decoratorwrapper.TextView">
+      <point x="-64.4" y="-70.0" />
+      <point x="450.6833333333333" y="470.0" />
+      <point x="56.0" y="470.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="300.5" y="237.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.structural.decoratorwrapper.Window</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

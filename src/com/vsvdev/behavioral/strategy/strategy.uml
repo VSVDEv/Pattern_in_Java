@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.strategy</OriginalElement>
+  <nodes>
+    <node x="252.0" y="158.0">com.vsvdev.behavioral.strategy.UserChecker</node>
+    <node x="279.0" y="380.0">com.vsvdev.behavioral.strategy.RunnerCode</node>
+    <node x="0.0" y="137.0">com.vsvdev.behavioral.strategy.FileAuth</node>
+    <node x="475.0" y="104.0">com.vsvdev.behavioral.strategy.DBAuth</node>
+    <node x="237.5" y="0.0">com.vsvdev.behavioral.strategy.AuthStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.strategy.RunnerCode" target="com.vsvdev.behavioral.strategy.UserChecker">
+      <point x="18.625" y="-27.0" />
+      <point x="372.125" y="355.0" />
+      <point x="404.25" y="355.0" />
+      <point x="50.75" y="59.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.UserChecker" target="com.vsvdev.behavioral.strategy.AuthStrategy">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.RunnerCode" target="com.vsvdev.behavioral.strategy.DBAuth">
+      <point x="55.875" y="-27.0" />
+      <point x="409.375" y="355.0" />
+      <point x="591.0" y="355.0" />
+      <point x="0.0" y="113.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.DBAuth" target="com.vsvdev.behavioral.strategy.AuthStrategy">
+      <point x="0.0" y="-113.0" />
+      <point x="591.0" y="79.0" />
+      <point x="430.8333333333333" y="79.0" />
+      <point x="77.33333333333331" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.FileAuth" target="com.vsvdev.behavioral.strategy.AuthStrategy">
+      <point x="0.0" y="-80.0" />
+      <point x="116.0" y="79.0" />
+      <point x="276.1666666666667" y="79.0" />
+      <point x="-77.33333333333331" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.strategy.RunnerCode" target="com.vsvdev.behavioral.strategy.FileAuth">
+      <point x="-55.875" y="-27.0" />
+      <point x="297.625" y="355.0" />
+      <point x="116.0" y="355.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="154.5" y="125.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.strategy.UserChecker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.chain</OriginalElement>
+  <nodes>
+    <node x="0.0" y="284.0">com.vsvdev.behavioral.chain.DBLogger</node>
+    <node x="371.0" y="284.0">com.vsvdev.behavioral.chain.FileLogger</node>
+    <node x="280.18750000000006" y="430.0">com.vsvdev.behavioral.chain.Main</node>
+    <node x="224.0" y="0.0">com.vsvdev.behavioral.chain.Logger</node>
+    <node x="183.0" y="284.0">com.vsvdev.behavioral.chain.SystemErrLogger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.chain.SystemErrLogger" target="com.vsvdev.behavioral.chain.Logger">
+      <point x="-42.0" y="-48.0" />
+      <point x="225.0" y="264.0" />
+      <point x="284.7142857142857" y="264.0" />
+      <point x="-24.285714285714278" y="112.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.chain.DBLogger" target="com.vsvdev.behavioral.chain.Logger">
+      <point x="40.75" y="-48.0" />
+      <point x="122.25" y="254.0" />
+      <point x="260.42857142857144" y="254.0" />
+      <point x="-48.571428571428555" y="112.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.chain.FileLogger" target="com.vsvdev.behavioral.chain.Logger">
+      <point x="-40.75" y="-48.0" />
+      <point x="411.75" y="264.0" />
+      <point x="333.28571428571433" y="264.0" />
+      <point x="24.285714285714334" y="112.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="267.0" y="242.0" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.chain.SystemErrLogger</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.creational.factorymethod</OriginalElement>
+  <nodes>
+    <node x="0.0" y="126.0">com.vsvdev.creational.factorymethod.Porsche</node>
+    <node x="323.75" y="252.0">com.vsvdev.creational.factorymethod.RoadType</node>
+    <node x="192.14166666666665" y="0.0">com.vsvdev.creational.factorymethod.Car</node>
+    <node x="150.75" y="306.0">com.vsvdev.creational.factorymethod.NewGeep</node>
+    <node x="140.725" y="464.0">com.vsvdev.creational.factorymethod.CarSelector</node>
+    <node x="287.225" y="568.0">com.vsvdev.creational.factorymethod.StartFactory</node>
+    <node x="129.0" y="126.0">com.vsvdev.creational.factorymethod.Geep</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.creational.factorymethod.CarSelector" target="com.vsvdev.creational.factorymethod.Geep">
+      <point x="-33.0" y="-27.0" />
+      <point x="190.225" y="434.0" />
+      <point x="140.25" y="434.0" />
+      <point x="140.25" y="227.0" />
+      <point x="156.25" y="227.0" />
+      <point x="-27.25" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.CarSelector" target="com.vsvdev.creational.factorymethod.NewGeep">
+      <point x="0.0" y="-27.0" />
+      <point x="223.225" y="444.0" />
+      <point x="226.75" y="444.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.CarSelector" target="com.vsvdev.creational.factorymethod.Car">
+      <point x="33.0" y="-27.0" />
+      <point x="256.225" y="434.0" />
+      <point x="313.25" y="434.0" />
+      <point x="313.25" y="106.0" />
+      <point x="260.26666666666665" y="106.0" />
+      <point x="13.625" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.StartFactory" target="com.vsvdev.creational.factorymethod.Car">
+      <point x="55.875" y="-27.0" />
+      <point x="417.6" y="548.0" />
+      <point x="519.25" y="548.0" />
+      <point x="519.25" y="96.0" />
+      <point x="287.51666666666665" y="96.0" />
+      <point x="40.875" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.Porsche" target="com.vsvdev.creational.factorymethod.Car">
+      <point x="0.0" y="-38.0" />
+      <point x="54.5" y="96.0" />
+      <point x="205.76666666666665" y="96.0" />
+      <point x="-40.875" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.CarSelector" target="com.vsvdev.creational.factorymethod.RoadType">
+      <point x="66.0" y="-27.0" />
+      <point x="289.225" y="444.0" />
+      <point x="370.0" y="444.0" />
+      <point x="-46.25" y="81.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.StartFactory" target="com.vsvdev.creational.factorymethod.RoadType">
+      <point x="18.625" y="-27.0" />
+      <point x="380.35" y="538.0" />
+      <point x="462.5" y="538.0" />
+      <point x="46.25" y="81.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.StartFactory" target="com.vsvdev.creational.factorymethod.CarSelector">
+      <point x="-55.875" y="-27.0" />
+      <point x="305.85" y="548.0" />
+      <point x="181.975" y="548.0" />
+      <point x="-41.25" y="27.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.CarSelector" target="com.vsvdev.creational.factorymethod.Porsche">
+      <point x="-66.0" y="-27.0" />
+      <point x="157.225" y="444.0" />
+      <point x="54.5" y="444.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.NewGeep" target="com.vsvdev.creational.factorymethod.Geep">
+      <point x="0.0" y="-27.0" />
+      <point x="226.75" y="227.0" />
+      <point x="210.75" y="227.0" />
+      <point x="27.25" y="38.0" />
+    </edge>
+    <edge source="com.vsvdev.creational.factorymethod.Geep" target="com.vsvdev.creational.factorymethod.Car">
+      <point x="0.0" y="-38.0" />
+      <point x="183.5" y="106.0" />
+      <point x="233.01666666666665" y="106.0" />
+      <point x="-13.625" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="245.0" y="281.0" />
+  <SelectedNodes>
+    <node>com.vsvdev.creational.factorymethod.Geep</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

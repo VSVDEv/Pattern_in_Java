@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.memento</OriginalElement>
+  <nodes>
+    <node x="112.86458333333331" y="336.0">com.vsvdev.behavioral.memento.Caretaker</node>
+    <node x="116.75" y="0.0">com.vsvdev.behavioral.memento.Memento</node>
+    <node x="0.0" y="146.0">com.vsvdev.behavioral.memento.Originator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.memento.Caretaker" target="com.vsvdev.behavioral.memento.Originator">
+      <point x="-49.66666666666663" y="-27.0" />
+      <point x="137.69791666666669" y="311.0" />
+      <point x="62.75" y="311.0" />
+      <point x="-62.75" y="70.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.memento.Caretaker" target="com.vsvdev.behavioral.memento.Memento">
+      <point x="49.666666666666686" y="-27.0" />
+      <point x="237.03125" y="311.0" />
+      <point x="261.5" y="311.0" />
+      <point x="261.5" y="121.0" />
+      <point x="235.91666666666666" y="121.0" />
+      <point x="47.66666666666666" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.memento.Originator" target="com.vsvdev.behavioral.memento.Memento">
+      <point x="-62.75" y="-70.0" />
+      <point x="62.75" y="121.0" />
+      <point x="140.58333333333334" y="121.0" />
+      <point x="-47.66666666666666" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="134.5" y="92.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.memento.Caretaker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

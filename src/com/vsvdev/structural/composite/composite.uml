@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.structural.composite</OriginalElement>
+  <nodes>
+    <node x="0.0" y="158.0">com.vsvdev.structural.composite.UnitsGroup</node>
+    <node x="148.22777777777776" y="392.0">com.vsvdev.structural.composite.Main</node>
+    <node x="167.0" y="201.0">com.vsvdev.structural.composite.Panzer</node>
+    <node x="124.19305555555553" y="0.0">com.vsvdev.structural.composite.Unit</node>
+    <node x="302.0" y="201.0">com.vsvdev.structural.composite.Soldier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.structural.composite.Main" target="com.vsvdev.structural.composite.UnitsGroup">
+      <point x="-29.80000000000001" y="-27.0" />
+      <point x="192.92777777777775" y="362.0" />
+      <point x="110.25" y="362.0" />
+      <point x="36.75" y="92.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.Soldier" target="com.vsvdev.structural.composite.Unit">
+      <point x="0.0" y="-49.0" />
+      <point x="359.5" y="128.0" />
+      <point x="210.44305555555553" y="128.0" />
+      <point x="28.75" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.Main" target="com.vsvdev.structural.composite.Panzer">
+      <point x="0.0" y="-27.0" />
+      <point x="222.72777777777776" y="372.0" />
+      <point x="224.5" y="372.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.Main" target="com.vsvdev.structural.composite.Unit">
+      <point x="59.60000000000002" y="-27.0" />
+      <point x="282.3277777777778" y="372.0" />
+      <point x="427.5" y="372.0" />
+      <point x="427.5" y="118.0" />
+      <point x="229.60972222222222" y="118.0" />
+      <point x="47.916666666666686" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.Panzer" target="com.vsvdev.structural.composite.Unit">
+      <point x="0.0" y="-49.0" />
+      <point x="224.5" y="138.0" />
+      <point x="191.27638888888885" y="138.0" />
+      <point x="9.583333333333314" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.Main" target="com.vsvdev.structural.composite.Soldier">
+      <point x="29.80000000000001" y="-27.0" />
+      <point x="252.52777777777777" y="362.0" />
+      <point x="359.5" y="362.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.structural.composite.UnitsGroup" target="com.vsvdev.structural.composite.Unit">
+      <point x="0.0" y="-92.0" />
+      <point x="73.5" y="128.0" />
+      <point x="152.94305555555553" y="128.0" />
+      <point x="-28.75" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="252.5" />
+  <SelectedNodes>
+    <node>com.vsvdev.structural.composite.Soldier</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vsvdev.behavioral.visitor.withpattern</OriginalElement>
+  <nodes>
+    <node x="269.24193548387103" y="332.0">com.vsvdev.behavioral.visitor.withpattern.Service</node>
+    <node x="406.31048387096774" y="708.0">com.vsvdev.behavioral.visitor.withpattern.CarWashService</node>
+    <node x="224.12735215053766" y="898.0">com.vsvdev.behavioral.visitor.withpattern.Main</node>
+    <node x="229.5581317204301" y="0.0">com.vsvdev.behavioral.visitor.withpattern.CarElement</node>
+    <node x="213.12735215053766" y="666.0">com.vsvdev.behavioral.visitor.withpattern.Car</node>
+    <node x="0.0" y="708.0">com.vsvdev.behavioral.visitor.withpattern.CarRepairService</node>
+    <node x="205.62735215053766" y="490.0">com.vsvdev.behavioral.visitor.withpattern.Wheel</node>
+    <node x="87.87735215053766" y="146.0">com.vsvdev.behavioral.visitor.withpattern.Body</node>
+    <node x="375.50369623655916" y="146.0">com.vsvdev.behavioral.visitor.withpattern.Engine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Body" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="38.75" y="48.0" />
+      <point x="204.12735215053766" y="272.0" />
+      <point x="311.24193548387103" y="272.0" />
+      <point x="-28.0" y="-49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Engine" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="-12.916666666666629" y="48.0" />
+      <point x="440.08702956989254" y="312.0" />
+      <point x="395.24193548387103" y="312.0" />
+      <point x="56.0" y="-49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Main" target="com.vsvdev.behavioral.visitor.withpattern.CarRepairService">
+      <point x="-55.875" y="-27.0" />
+      <point x="242.75235215053766" y="873.0" />
+      <point x="88.0" y="873.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Service" target="com.vsvdev.behavioral.visitor.withpattern.Wheel">
+      <point x="0.0" y="49.0" />
+      <point x="339.24193548387103" y="470.0" />
+      <point x="334.7940188172043" y="470.0" />
+      <point x="51.66666666666666" y="-48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Service" target="com.vsvdev.behavioral.visitor.withpattern.Body">
+      <point x="-56.0" y="-49.0" />
+      <point x="283.24193548387103" y="282.0" />
+      <point x="178.29401881720435" y="282.0" />
+      <point x="12.916666666666686" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Wheel" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="0.0" y="-48.0" />
+      <point x="283.12735215053766" y="470.0" />
+      <point x="311.24193548387103" y="470.0" />
+      <point x="-28.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Main" target="com.vsvdev.behavioral.visitor.withpattern.CarWashService">
+      <point x="55.875" y="-27.0" />
+      <point x="354.50235215053766" y="873.0" />
+      <point x="486.31048387096774" y="873.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarRepairService" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="22.0" y="-49.0" />
+      <point x="110.0" y="646.0" />
+      <point x="108.93178763440861" y="646.0" />
+      <point x="108.93178763440861" y="460.0" />
+      <point x="283.24193548387103" y="460.0" />
+      <point x="-56.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarWashService" target="com.vsvdev.behavioral.visitor.withpattern.Engine">
+      <point x="60.0" y="-49.0" />
+      <point x="546.3104838709678" y="646.0" />
+      <point x="520.1854838709677" y="646.0" />
+      <point x="520.1854838709677" y="312.0" />
+      <point x="517.5870295698924" y="312.0" />
+      <point x="64.58333333333326" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Wheel" target="com.vsvdev.behavioral.visitor.withpattern.CarElement">
+      <point x="-51.66666666666666" y="-48.0" />
+      <point x="231.46068548387098" y="450.0" />
+      <point x="253.37735215053766" y="450.0" />
+      <point x="253.37735215053766" y="126.0" />
+      <point x="287.6831317204301" y="126.0" />
+      <point x="-19.375" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Main" target="com.vsvdev.behavioral.visitor.withpattern.Car">
+      <point x="-18.625" y="-27.0" />
+      <point x="280.00235215053766" y="873.0" />
+      <point x="255.87735215053766" y="873.0" />
+      <point x="-42.75" y="91.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarRepairService" target="com.vsvdev.behavioral.visitor.withpattern.Engine">
+      <point x="-22.0" y="-49.0" />
+      <point x="66.0" y="646.0" />
+      <point x="97.93178763440861" y="646.0" />
+      <point x="97.93178763440861" y="292.0" />
+      <point x="388.4203629032258" y="292.0" />
+      <point x="-64.58333333333337" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarElement" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="19.375" y="48.0" />
+      <point x="326.4331317204301" y="126.0" />
+      <point x="339.24193548387103" y="126.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Body" target="com.vsvdev.behavioral.visitor.withpattern.CarElement">
+      <point x="0.0" y="-48.0" />
+      <point x="165.37735215053766" y="116.0" />
+      <point x="248.9331317204301" y="116.0" />
+      <point x="-58.125" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarWashService" target="com.vsvdev.behavioral.visitor.withpattern.Body">
+      <point x="20.0" y="-49.0" />
+      <point x="506.31048387096774" y="646.0" />
+      <point x="509.1854838709677" y="646.0" />
+      <point x="509.1854838709677" y="262.0" />
+      <point x="229.96068548387098" y="262.0" />
+      <point x="64.58333333333331" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarRepairService" target="com.vsvdev.behavioral.visitor.withpattern.Wheel">
+      <point x="66.0" y="-49.0" />
+      <point x="154.0" y="646.0" />
+      <point x="221.12735215053766" y="646.0" />
+      <point x="-62.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Car" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="32.0625" y="-91.0" />
+      <point x="330.68985215053766" y="626.0" />
+      <point x="391.74193548387103" y="626.0" />
+      <point x="391.74193548387103" y="470.0" />
+      <point x="367.24193548387103" y="470.0" />
+      <point x="28.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Engine" target="com.vsvdev.behavioral.visitor.withpattern.CarElement">
+      <point x="0.0" y="-48.0" />
+      <point x="453.00369623655916" y="126.0" />
+      <point x="365.1831317204301" y="126.0" />
+      <point x="58.125" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Car" target="com.vsvdev.behavioral.visitor.withpattern.Engine">
+      <point x="53.4375" y="-91.0" />
+      <point x="352.06485215053766" y="636.0" />
+      <point x="475.2536962365591" y="636.0" />
+      <point x="475.2536962365591" y="312.0" />
+      <point x="465.9203629032258" y="312.0" />
+      <point x="12.916666666666629" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarRepairService" target="com.vsvdev.behavioral.visitor.withpattern.Body">
+      <point x="-66.0" y="-49.0" />
+      <point x="22.0" y="636.0" />
+      <point x="86.93178763440861" y="636.0" />
+      <point x="86.93178763440861" y="282.0" />
+      <point x="100.79401881720435" y="282.0" />
+      <point x="-64.58333333333331" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Car" target="com.vsvdev.behavioral.visitor.withpattern.Wheel">
+      <point x="-10.6875" y="-91.0" />
+      <point x="287.93985215053766" y="646.0" />
+      <point x="283.12735215053766" y="646.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarWashService" target="com.vsvdev.behavioral.visitor.withpattern.Wheel">
+      <point x="-60.0" y="-49.0" />
+      <point x="426.31048387096774" y="616.0" />
+      <point x="345.12735215053766" y="616.0" />
+      <point x="62.0" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Service" target="com.vsvdev.behavioral.visitor.withpattern.Engine">
+      <point x="28.0" y="-49.0" />
+      <point x="367.24193548387103" y="302.0" />
+      <point x="414.25369623655916" y="302.0" />
+      <point x="-38.75" y="48.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.CarWashService" target="com.vsvdev.behavioral.visitor.withpattern.Service">
+      <point x="-20.0" y="-49.0" />
+      <point x="466.31048387096774" y="606.0" />
+      <point x="428.0870295698925" y="606.0" />
+      <point x="428.0870295698925" y="460.0" />
+      <point x="395.24193548387103" y="460.0" />
+      <point x="56.0" y="49.0" />
+    </edge>
+    <edge source="com.vsvdev.behavioral.visitor.withpattern.Car" target="com.vsvdev.behavioral.visitor.withpattern.Body">
+      <point x="-53.4375" y="-91.0" />
+      <point x="245.18985215053766" y="626.0" />
+      <point x="148.62735215053766" y="626.0" />
+      <point x="148.62735215053766" y="282.0" />
+      <point x="152.46068548387098" y="282.0" />
+      <point x="-12.916666666666686" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="298.0" />
+  <SelectedNodes>
+    <node>com.vsvdev.behavioral.visitor.withpattern.CarRepairService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
